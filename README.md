@@ -2,7 +2,6 @@
 
 Seven ways numbers fool people. Each one is a short post, a real case from the news, a small dataset analysed with pandas, a figure, and an animated figure. Everything runs in a notebook you can download and run.
 
-Written in simple English on purpose.
 
 **[Open the animated web page](https://cs42org.github.io/data-make-sins/)** · [Start with the notebooks](notebooks/00_start_here.ipynb) · [Read the posts](posts/seven-posts.md)
 
