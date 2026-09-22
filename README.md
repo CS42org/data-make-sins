@@ -4,6 +4,8 @@ Seven ways numbers fool people. Each one is a short post, a real case from the n
 
 Written in simple English on purpose.
 
+**[Open the animated web page](https://cs42org.github.io/data-make-sins/)** · [Start with the notebooks](notebooks/00_start_here.ipynb) · [Read the posts](posts/seven-posts.md)
+
 ![Survivorship bias](figures/01_bombers.gif)
 
 ## The seven mistakes
@@ -18,9 +20,7 @@ Written in simple English on purpose.
 | 6 | Base rate neglect | The 99 percent accurate test, Cardiff 2017 | [06_base_rate_neglect](notebooks/06_base_rate_neglect.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CS42org/data-make-sins/blob/main/notebooks/06_base_rate_neglect.ipynb) |
 | 7 | Publication bias | 74 antidepressant trials, 2008 | [07_publication_bias](notebooks/07_publication_bias.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CS42org/data-make-sins/blob/main/notebooks/07_publication_bias.ipynb) |
 
-
-
-Figures are not committed by hand. A GitHub Actions workflow runs every notebook on each push and commits the figures and the executed notebooks back to the repo.
+Every notebook is saved with its outputs, so you can read it on GitHub without running anything.
 
 ## Preview
 
@@ -50,9 +50,9 @@ On Google Colab: click a badge in the table. Run the first cell, it downloads th
 ```
 notebooks/   one notebook per mistake, plus 00_start_here
 data/        small CSV files used by the notebooks
-figures/     every figure and GIF, built by GitHub Actions on each push
+figures/     every figure and GIF the notebooks produce
 posts/       the seven posts as plain text, and the master list of 50 mistakes
-web/         the animated web page (open index.html in a browser)
+docs/        the animated web page, published with GitHub Pages
 src/dms.py   shared colours and plot style
 ```
 
